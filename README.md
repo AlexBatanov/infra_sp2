@@ -58,7 +58,7 @@ sudo docker-compose exec web python manage.py makemigrations
 Выполнить миграции:
 
 ```
-sudo docker-compose exec web python manage.py
+sudo docker-compose exec web python manage.py migarte
 ```
 
 Создать суперпользователя:
