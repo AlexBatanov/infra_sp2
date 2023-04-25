@@ -46,19 +46,13 @@ DB_PORT=5432 (порт для подключения к БД)
 Запуск docker-compose:
 
 ```
-docker-compose up -d --build 
-```
-
-Создать миграции:
-
-```
-sudo docker-compose exec web python manage.py makemigrations
+sudo docker-compose up -d --build 
 ```
 
 Выполнить миграции:
 
 ```
-sudo docker-compose exec web python manage.py migarte
+sudo docker-compose exec web python manage.py migrate
 ```
 
 Создать суперпользователя:
